@@ -3,6 +3,12 @@
 A tiny beginner-friendly web scraping project using **requests** + **BeautifulSoup**.
 Targets the demo website **books.toscrape.com** (made for scraping practice).
 
+## Preview (Excel)
+
+<p align="center">
+  <img src="excel-preview.png" alt="CSV opened in Excel — sample output" width="900">
+</p>
+
 ## Features
 - Scrapes book **title**, **price (raw + numeric)**, **stock text**, **URL**
 - Pagination (choose number of pages)
