@@ -36,12 +36,16 @@ python -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+```
+---
 
-Usage
+## Usage
 #bash
 python scrape_books.py
 
-Options
+---
+
+## Options
 #bash
 python scrape_books.py \
   --pages 3 \            # how many pages to scrape (default: 3)
@@ -52,14 +56,15 @@ python scrape_books.py \
 Output
 CSV with columns: title, price_raw, price_value, stock, url
 
-Example:
-#pgsql
+----
+
+## Example:
+#pgsq
 
 Page 1: 20 rows
 Page 2: 20 rows
 Page 3: 20 rows
-Saved 60 rows to books.csv
-```
+Saved 60 rows to books.csv```
 
 ---
 
