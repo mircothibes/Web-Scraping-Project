@@ -40,13 +40,13 @@ pip install -r requirements.txt
 ---
 
 ## Usage
-#bash
+
 python scrape_books.py
 
 ---
 
 ## Options
-#bash
+
 python scrape_books.py \
   --pages 3 \            # how many pages to scrape (default: 3)
   --max-price 25 \       # keep only books <= £25 (omit to disable)
@@ -60,7 +60,7 @@ python scrape_books.py \
 
 CSV with columns: title, price_raw, price_value, stock, url
 
-Example:
+## Example:
 
 Page 1: 20 rows
 Page 2: 20 rows
@@ -87,6 +87,4 @@ This project is released under the MIT License
 
 Developed by Marcos Vinicius Thibes Kemer
 
---
-
-
+---
