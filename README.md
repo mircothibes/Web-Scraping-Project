@@ -70,3 +70,10 @@ Saved 60 rows to books.csv
 - Do not scrape personal data or violate sites’ robots.txt / Terms of Service.
 
 ---
+
+## License
+
+This project is released under the MIT License
+
+---
+
