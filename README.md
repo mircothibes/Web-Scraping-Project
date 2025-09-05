@@ -53,18 +53,19 @@ python scrape_books.py \
   --out cheap_books.csv \# output filename (default: books.csv)
   --delay 1.0 \          # seconds between pages (default: 1.0)
   --start-url https://books.toscrape.com/catalogue/page-1.html
-Output
+
+---
+
+## Output
+
 CSV with columns: title, price_raw, price_value, stock, url
 
-----
-
-## Example:
-#pgsq
+Example:
 
 Page 1: 20 rows
 Page 2: 20 rows
 Page 3: 20 rows
-Saved 60 rows to books.csv```
+Saved 60 rows to books.csv
 
 ---
 
@@ -86,4 +87,6 @@ This project is released under the MIT License
 
 Developed by Marcos Vinicius Thibes Kemer
 
----
+--
+
+
