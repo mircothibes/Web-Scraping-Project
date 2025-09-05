@@ -46,14 +46,14 @@ python scrape_books.py
 ---
 
 ## Options
-
+```
 python scrape_books.py \
   --pages 3 \            # how many pages to scrape (default: 3)
   --max-price 25 \       # keep only books <= £25 (omit to disable)
   --out cheap_books.csv \# output filename (default: books.csv)
   --delay 1.0 \          # seconds between pages (default: 1.0)
   --start-url https://books.toscrape.com/catalogue/page-1.html
-
+```
 ---
 
 ## Output
@@ -61,11 +61,12 @@ python scrape_books.py \
 CSV with columns: title, price_raw, price_value, stock, url
 
 ## Example:
-
+```
 Page 1: 20 rows
 Page 2: 20 rows
 Page 3: 20 rows
 Saved 60 rows to books.csv
+```
 
 ---
 
