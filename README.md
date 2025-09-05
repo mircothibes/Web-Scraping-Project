@@ -65,10 +65,8 @@ Saved 60 rows to books.csv
 
 ## Notes (ethics & safety)
 
-This project targets a demo site explicitly built for scraping practice.
-
-Always be polite: keep a small delay between requests (--delay).
-
-Do not scrape personal data or violate sites’ robots.txt / Terms of Service.
+- This project targets a demo site explicitly built for scraping practice.
+- Always be polite: keep a small delay between requests (--delay).
+- Do not scrape personal data or violate sites’ robots.txt / Terms of Service.
 
 ---
