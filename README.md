@@ -3,11 +3,15 @@
 A tiny beginner-friendly web scraping project using **requests** + **BeautifulSoup**.
 Targets the demo website **books.toscrape.com** (made for scraping practice).
 
+---
+
 ## Preview (Excel)
 
 <p align="center">
   <img src="excel-preview.png" alt="CSV opened in Excel — sample output" width="900">
 </p>
+
+---
 
 ## Features
 - Scrapes book **title**, **price (raw + numeric)**, **stock text**, **URL**
@@ -15,9 +19,13 @@ Targets the demo website **books.toscrape.com** (made for scraping practice).
 - Optional **price filter** (`--max-price 25`)
 - CSV output
 
+---
+
 ## Requirements
 - Python 3.10+ (works with 3.8/3.9 if you replace `float | None` with `Optional[float]`)
 - `requests`, `beautifulsoup4`, `lxml`
+
+---
 
 ## Install
 ```bash
@@ -51,11 +59,16 @@ Page 1: 20 rows
 Page 2: 20 rows
 Page 3: 20 rows
 Saved 60 rows to books.csv
+```
 
-Notes (ethics & safety)
+---
+
+## Notes (ethics & safety)
+
 This project targets a demo site explicitly built for scraping practice.
 
 Always be polite: keep a small delay between requests (--delay).
 
 Do not scrape personal data or violate sites’ robots.txt / Terms of Service.
 
+---
